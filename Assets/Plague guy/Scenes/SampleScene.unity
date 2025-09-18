@@ -938,8 +938,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2540b89baa8a4904c94f0b744d98d5c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mainCamera: {fileID: 519420031}
-  _inspectionCamera: {fileID: 824092284}
 --- !u!1 &776758449
 GameObject:
   m_ObjectHideFlags: 0
@@ -4616,6 +4614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactionPrompt: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430"
   _canInteract: 1
+  _inspectionSceneName: InspectionScene
 --- !u!1 &2028812822
 GameObject:
   m_ObjectHideFlags: 0
