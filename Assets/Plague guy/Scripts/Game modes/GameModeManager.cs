@@ -28,7 +28,7 @@ public class GameModeManager : MonoBehaviour
 
         Debug.Log($"Режим изменен на :{newMode}");
         
-        LoadSceneForMode(newMode);
+        //LoadSceneForMode(newMode);
     }
 
     private void LoadSceneForMode(GameMode mode)

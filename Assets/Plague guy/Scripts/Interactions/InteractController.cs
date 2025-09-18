@@ -18,9 +18,7 @@ public class InteractionController : MonoBehaviour
         FindInteractables();
         UpdateInteractionUI();
         HandleInteractionInput();
-
     }
-
     private void FindInteractables() // Поиск интерактивных объектов 
     { 
       _currentInteractable = null;
